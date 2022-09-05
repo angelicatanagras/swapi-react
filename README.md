@@ -8,7 +8,7 @@ A demo react application integrated with https://swapi.dev/.
 
 Clone the repo locally:\
 `git clone https://github.com/angelicatanagras/swapi-react.git`\
-`cd react-swapi`
+`cd swapi-react`
 
 Build assets:\
 `npm install`
