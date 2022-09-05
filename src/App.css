@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+:root {
+  --brown: #5C472F;
+  --white: #fff;
+  --black: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.clear {
+  clear: both;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  background-color: #fff;
+  color: black;
+  font-size: inherit;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2rem 0 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.image-logo {
+  height: auto;
+  width: 6%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form-control {
+  border: 1px solid var(--black);
+}
+
+.filter {
+  width: 40%
+}
+
+form {
+  padding-left: 20px;
+}
+
+.list-group-div {
+  padding: 2em;
+}
+
+
+.list-group-item {
+  background-color: var(--brown);
+  color: var(--white)
+}
+
+.list-group-item {
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.modal-dialog {
+  width: 475px;
+}
+
+.nav-link {
+  color: var(--brown);
+}
+
+.main-center {
+  padding: 0 20rem;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .main-center {
+    padding: 1em;
   }
-  to {
-    transform: rotate(360deg);
+
+  .filter {
+    width: 100%;
+  }
+
+  img {
+    width: 20%;
   }
 }
